@@ -43,14 +43,13 @@ const Navbar = () =>{
                     isNavbarShowing = false;
                     const hideNavbar = () =>{
                         isNavbarShowing = !isNavbarShowing;
-                            console.log(isNavbarShowing);
-                            if(isNavbarShowing){
-                                navbar.style.display = "flex";
-                                body.style.overflow='hidden';
+                        if(isNavbarShowing){
+                            navbar.style.display = "flex";
+                            body.style.overflow='hidden';
 
-                            }else{
-                                navbar.style.display = "none";
-                                body.style.overflow='visible';
+                        }else{
+                            navbar.style.display = "none";
+                            body.style.overflow='visible';
                         }
                     };
                     logo.addEventListener('click', hideNavbar);
