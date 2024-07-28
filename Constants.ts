@@ -25,3 +25,6 @@ export const SESSIONS = [
         text: 'A debate session was held between two undergraduate students to have a debate on the economic policy of Sarawak. It encourages students to think critically about the hydrogen economy from multiple viewpoints.'
     }
 ]
+
+export const headers = ['Home', 'Objectives', 'Achievements', 'About_us'];
+

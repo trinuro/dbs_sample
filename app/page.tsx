@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Objectives from "@/components/Objectives";
 import Achievements from "@/components/Achievements";
 import AboutUs from "@/components/AboutUs";
+import Script from "next/script";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,6 +16,7 @@ export default function Home() {
       <Objectives></Objectives>
       <Achievements></Achievements>
       <AboutUs></AboutUs>
+      <Script src='jsFunctions.js' strategy="lazyOnload"></Script>
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebookSquare, faInstagramSquare,faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import Script from "next/script";
 
 const AboutUs = () =>{
     return (
@@ -11,6 +12,7 @@ const AboutUs = () =>{
                 <h3 className="regular-16 text-gray-700 bg-white/70 lg:regular-28 lg:py-5">To learn more of our activities, please follow us on our social media accounts</h3>
             
                 <div className="flex flex-row justify-center gap-10 py-16 lg:pt-10">
+
                         <a href='https://www.facebook.com/pmsum.sarawak/?locale=ms_MY'>
                             <FontAwesomeIcon
                                 icon={faFacebookSquare}

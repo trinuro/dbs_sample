@@ -2,8 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import React from 'react'
-
-const headers = ['Home', 'Objectives', 'Achievements', 'About_us']
+import {headers} from '@/Constants';
 
 const Navbar = () =>{
     return (
@@ -58,7 +57,7 @@ const Navbar = () =>{
                     })`
                 }
             </Script>
-
+            
         </nav>
     )
 }
