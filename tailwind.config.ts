@@ -15,6 +15,11 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         honeycomb: "url('/honeycomb.png')",
         dunSketch: "url('/footer-img.png')",
+        dunSketchLarge: "url('/DUN_DRAWN_LARGE.png')",
+        dunSketchMedium: "url('/DUN_DRAWN_MD.png')",
+        borneoCulturalMuseumMedium: "url('/BorneoCulturalMuseumMedium.png')",
+        borneoCulturalMuseumLarge: "url('/BorneoCulturalMuseumLarge.png')",
+        'dun-and-bcs' : "url('/DUNandBCM.png')",
       },
       colors: {
           yellow : {

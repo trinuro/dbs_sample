@@ -5,8 +5,8 @@ import Script from "next/script";
 
 const AboutUs = () =>{
     return (
-        <section id='About_us' className="bg-dunSketch bg-no-repeat bg-center">
-            <div className="max-container padding-container text-center">
+        <section id='About_us' className="bg-borneoCulturalMuseumMedium bg-no-repeat bg-center bg-contain">
+            <div className="max-container padding-container text-center ">
                 <h2 className="py-4 font-hightide regular-32 lg:regular-64">About Us</h2>
                 <h3 className="bold-18  bg-white/70 lg:bold-32 lg:py:5">Persatuan Mahasiswa Sarawak Universiti Malaya is an assocation of Sarawakian students, by Sarawakian students and for Sarawakian students in Universiti Malaya</h3>
                 <h3 className="regular-16 text-gray-700 bg-white/70 lg:regular-28 lg:py-5">To learn more of our activities, please follow us on our social media accounts</h3>

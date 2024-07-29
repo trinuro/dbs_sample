@@ -8,7 +8,7 @@ const ses3 = SESSIONS[2];
 
 const Achievements = () =>{
     return (
-        <section id="Achievements" className="pb-5">
+        <section id="Achievements" className="pb-5 bg-dunSketchMedium md:bg-dunSketchLarge bg-no-repeat bg-center md:bg-bottom">
             <div className="max-container padding-container bg-white/90">
                 <h2 className="py-4 font-hightide regular-32 lg:regular-64 text-center">Achievements</h2>
                 <section id='session1' className="lg:flex flex-row justify-center m-auto  items-center gap-5 pt-4">
