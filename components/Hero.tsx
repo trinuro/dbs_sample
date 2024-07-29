@@ -17,7 +17,7 @@ const colourOfDots = ['black', 'red', 'yellow']
 
 const Hero = () => {
     return(
-        <section id='Home' className='flex-nowrap bg-contain lg:bg-cover bg-no-repeat bg-dun-and-bcs bg-center'>
+        <section id='Home' className='flex-nowrap bg-cover bg-no-repeat bg-dun-and-bcs bg-center'>
             <div className=' max-container padding-container pt-5 lg:pt-20 bg-white/50'>
                 <div className='text-center lg:bold-64 flex flex-col whitespace-nowrap gap-0'>
                     <p className='font-leagueSpartan text-[30px] font-extrabold leading-3 lg:text-[80px]'>DISKUSI BELANJAWAN</p>
