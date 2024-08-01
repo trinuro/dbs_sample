@@ -8,8 +8,14 @@ const ses3 = SESSIONS[2];
 
 const Achievements = () =>{
     return (
-        <section id="Achievements" className="pb-5 bg-dunSketchMedium md:bg-dunSketchLarge bg-no-repeat bg-center md:bg-bottom">
-            <div className="max-container padding-container bg-white/90">
+        <section id="Achievements" className="pb-5 bg-dunSketchMedium bg-white/40 md:bg-dunSketchLarge bg-no-repeat bg-center md:bg-bottom">
+            <div className="max-container padding-container bg-white/90 relative pb-5">
+                <div
+                    className="absolute h-full bg-dayak-motif -z-10 w-36 right-0"
+                ></div>
+                <div
+                    className="absolute h-full bg-dayak-motif -z-10 w-36 left-0"
+                ></div>
                 <h2 className="py-4 font-hightide regular-32 lg:regular-64 text-center">Achievements</h2>
                 <section id='session1' className="lg:flex flex-row justify-center m-auto  items-center gap-5 pt-4">
                     <Image
