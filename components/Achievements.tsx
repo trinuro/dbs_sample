@@ -8,7 +8,7 @@ const ses3 = SESSIONS[2];
 
 const Achievements = () =>{
     return (
-        <section id="Achievements" className="pb-5 bg-dunSketchMedium bg-white/40 md:bg-dunSketchLarge bg-no-repeat bg-center md:bg-bottom">
+        <section id="Achievements" className="bg-dunSketchMedium bg-white/40 md:bg-dunSketchLarge bg-no-repeat bg-center md:bg-bottom">
             <div className="max-container padding-container bg-white/90 relative pb-5">
                 <div
                     className="absolute h-full bg-dayak-motif -z-10 w-36 right-0"

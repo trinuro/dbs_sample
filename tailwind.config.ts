@@ -20,7 +20,8 @@ const config: Config = {
         borneoCulturalMuseumMedium: "url('/BorneoCulturalMuseumMedium.png')",
         borneoCulturalMuseumLarge: "url('/BorneoCulturalMuseumLarge.png')",
         'dun-and-bcs' : "url('/DUNandBCM.png')",
-        'dayak-motif' : "url('/Dayak_Motif.png')"
+        'dayak-motif' : "url('/Dayak_Motif.png')",
+        'dayak-motif-light' : "url('/Dayak_Motif_2.png')",
       },
       colors: {
           yellow : {
